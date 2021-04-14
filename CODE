@@ -10,7 +10,7 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
 boolean item;
 
-uint8_t servonum = 0; // the number which is servo is connected
+uint8_t servonum = 0; // the number which is servo is connected (PCA 9685 - 16 channel)
 
 void setup() {
   Serial.begin(9600);

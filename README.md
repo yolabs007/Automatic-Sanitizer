@@ -2,7 +2,21 @@
 
 * use ultrasonic sensor or IR Sensor based on availability.
 
+
+### ` Connections`
+
+Ultrasonic Sensor | Arduino
+------------      | -------------
+Trigg             | A2
+Echo              | A1
+VCC               | 5V
+GND               | GND
+
+
 ### `Based on Ultrasonic sensor`
+
+
+![Ultrasonic Sensor](https://microcontrollerslab.com/wp-content/uploads/2014/12/HC-SR04-Ultrasonic-Sensor-Pinout-diagram.jpg)
 
 ```C++
 
@@ -69,6 +83,19 @@ long data(){
 ```
 
 ### `Based on IR Sensor`
+
+![IR Sensor](https://5.imimg.com/data5/WA/GS/MY-5726208/delta-plc-repair-service-500x500.jpg)
+
+### ` Connections`
+
+
+IR Sensor         | Arduino
+------------      | -------------
+OUT               | Pin Number 7
+VCC               | 5V
+GND               | GND
+
+
 
 ```C++
 
